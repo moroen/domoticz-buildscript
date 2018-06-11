@@ -42,8 +42,8 @@ do
 done
 
 cd ${cwd}/domoticz
-#cmake .
-#make 
+cmake .
+make 
 
 for arg in "$@"
 do
