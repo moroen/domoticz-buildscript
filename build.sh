@@ -5,7 +5,7 @@ cwd=$(pwd)
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt-get install -y cmake git python3-dev python3-pip libboost-dev libboost-thread-dev libssl-dev curl libcurl4-openssl-dev autoconf automake libtool
+sudo apt-get install -y cmake git python3-dev python3-pip libboost-dev libboost-thread-dev libssl-dev curl libcurl4-openssl-dev autoconf automake libtool zlib1g-dev
 
 git clone https://github.com/domoticz/domoticz.git
 cd ${cwd}/domoticz
