@@ -9,7 +9,7 @@ sudo apt-get install -y cmake git python3-dev python3-pip libboost-dev libboost-
 
 git clone https://github.com/domoticz/domoticz.git
 cd ${cwd}/domoticz
-git checkout development
+#git checkout development
 
 for arg in "$@"
 do
